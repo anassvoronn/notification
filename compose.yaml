@@ -3,3 +3,6 @@ version: '3.8'
 services:
   app:
     build: .
+    environment:
+      - 'SPRING_MAIL_USERNAME=your-username'
+      - 'SPRING_MAIL_PASSWORD=your-password'

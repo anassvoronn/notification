@@ -26,6 +26,8 @@
 
 3. **Start the application:**
 
+   Put your email username and password to file compose.yaml.
+
    ```bash
    docker-compose up -d
    ```

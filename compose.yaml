@@ -6,3 +6,5 @@ services:
     environment:
       - 'SPRING_MAIL_USERNAME=your-username'
       - 'SPRING_MAIL_PASSWORD=your-password'
+      - 'SPRING_MAIL_HOST=your-host'
+      - 'SPRING_MAIL_PORT=your-port'

@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   app:
     build: .
@@ -8,3 +6,9 @@ services:
       - 'SPRING_MAIL_PASSWORD=your-password'
       - 'SPRING_MAIL_HOST=your-host'
       - 'SPRING_MAIL_PORT=your-port'
+    networks:
+      - my_shared_network
+
+networks:
+  my_shared_network:
+    name: my_shared_network

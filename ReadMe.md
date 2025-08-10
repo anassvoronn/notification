@@ -27,6 +27,7 @@
 3. **Start the application:**
 
    Put your email username, password, host and port to file compose.yaml.
+   Please make sure Auth app has been already started!!!
 
    ```bash
    docker-compose up -d
